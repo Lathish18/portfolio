@@ -351,7 +351,7 @@ section {
 .certificate-list {
   list-style: none;
   padding: 0;
-  width: 60%;
+  width: 600px;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -513,6 +513,22 @@ footer p {
   }
 }
 
+@media screen and (max-width: 800px){
+  .certificate-list{
+    width: 500px;
+    display: block;
+    margin: auto;
+  } 
+}
+
+@media screen and (max-width: 700px){
+  .certificate-list{
+    width: 400px;
+    display: block;
+    margin: auto;
+  } 
+}
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -565,5 +581,26 @@ footer p {
   }
   .text-container {
     text-align: justify;
+  }
+  #certificates {
+    height: fit-content;
+    text-align: center; 
+  }
+
+  .certificate-list {
+    width: 100%;
+    padding: 1rem;
+    margin: auto; 
+  }
+
+  .certificate-list li {
+    flex-direction: column;
+    align-items: center; 
+    margin: 1rem 0;
+  }
+
+  .certificate-list img {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
 }

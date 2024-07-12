@@ -2,7 +2,7 @@ import React, {  useState } from 'react'
 import Education from './Education';
 
 const Resume = () => {
-  //  const [educationData, setEducationData] = useState(true);
+   const [educationData, setEducationData] = useState(true);
   //  const [skillData, setSkillData] = useState(false);
   //  const [experienceData, setExperienceData] = useState(false);
   //  const [achievementData, setAchievementData] = useState(false);

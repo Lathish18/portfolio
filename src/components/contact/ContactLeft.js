@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs"
 
 const ContactLeft = () => {
@@ -33,6 +33,9 @@ const ContactLeft = () => {
             </a>
             <a href='https://www.linkedin.com/in/lathish18/' className="bannerIcon" target="_blank">
               <FaLinkedinIn />
+            </a>
+            <a href="mailto:lathish1802@gmail.com" className="bannerIcon" target="_blank">
+              <FaGoogle />
             </a>
           </div>
       </div>

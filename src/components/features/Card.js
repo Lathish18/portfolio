@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiArrowRight } from "react-icons/hi";
 
 const Card = ({title,des,icon}) => {
   return (

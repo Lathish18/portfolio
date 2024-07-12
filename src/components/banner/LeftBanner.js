@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaReact, FaEnvelope, FaDownload, FaEye } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaDownload, FaGoogle } from "react-icons/fa";
 import { SiTailwindcss, SiPython, SiNextdotjs } from "react-icons/si";
 import { BsGithub } from "react-icons/bs"
 
@@ -8,9 +8,9 @@ const LeftBanner = () => {
     const [text] = useTypewriter({
       words: ["Professional Coder.", "Full Stack Developer.", "Frontend Developer."],
       loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
-      delaySpeed: 2000,
+      typeSpeed: 30,
+      deleteSpeed: 20,
+      delaySpeed: 4000,
     });
 
     const handleDownload = () => {
@@ -20,13 +20,13 @@ const LeftBanner = () => {
     
 
   return (
-    <div className="w-full flex flex-col gap-20">
-      <div className="flex flex-col gap-5 text-center">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+    <div className="w-full flex flex-col gap-10">
+      <div className="flex flex-col gap-2 md:gap-5 text-center">
+        <h4 className="text-sm md:text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h1 className="text-4xl md:text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Lathish</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -34,7 +34,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="font-bodyFont px-4 lg:px-10 mt-5">
+        <p className="text-sm md:text-base font-bodyFont px-0 md:px-4 lg:px-10 mt-5">
         A passionate Web Developer proficient in React, Django, Python, HTML, CSS, JavaScript, Tailwind CSS, and MySQL. Dedicated to developing intricate and robust solutions. I focus on writing maintainable and efficient code to deliver high-quality software that meets user needs and business goals. My persistent desire to learn and adapt to new technologies drives me to excel in full stack development, leveraging my expertise to stay at the forefront of the industry.
         </p>
       </div>
@@ -53,6 +53,9 @@ const LeftBanner = () => {
             {/* <a href='' className="bannerIcon" target="_blank">
               <FaEnvelope />
             </a> */}
+            <a href="mailto:lathish1802@gmail.com" className="bannerIcon" target="_blank">
+              <FaGoogle />
+            </a>
           </div>
         </div>
         <div>

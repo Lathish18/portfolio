@@ -7,11 +7,11 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10"
     >
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+        <div className="py-3 lgl:py-6 font-titleFont flex flex-col gap-4">
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -31,11 +31,11 @@ const Education = () => {
       </div>
 
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className="font-titleFont flex flex-col gap-4 py-3 lgl:py-6">
           {/* <p className="text-sm text-designColor tracking-[4px]">2017 - 2022</p> */}
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[600px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8">
           <ResumeCard
             title="BSc in Physics"
             subTitle="Einstein College pf Arts and Sciences (2019 - 2022)"
@@ -43,7 +43,7 @@ const Education = () => {
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="Higher Secondary Certificate"
+            title="HSC"
             subTitle="Adarsh Vidyalaya Matric. Hr. Sec. School (2017 - 2019)"
             result="67.34%"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."

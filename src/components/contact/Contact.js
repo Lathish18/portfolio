@@ -82,7 +82,7 @@ const Contact = () => {
           <ContactLeft />
           <div className="w-full mdl:w-[55%] bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 px-4 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" onSubmit={handleSubmit}>
-              <div className="w-full flex flex-row gap-10">
+              <div className="w-full flex flex-row gap-2">
                 <div className="w-1/2 flex flex-col gap-4">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
                     Your name

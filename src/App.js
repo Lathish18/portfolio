@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
+import './index.css'
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
-        <Projects />
         <Resume />
+        <Projects />
         <Testimonial />
         <Contact />
         <Footer />

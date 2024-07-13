@@ -26,7 +26,7 @@ const LeftBanner = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Lathish</span>
         </h1>
-        <h2 className="text-3xl md:text-4xl font-bold text-white">
+        <h2 className="text-2xl md:text-4xl font-semibold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"

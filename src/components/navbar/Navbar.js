@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
+    <div className="w-full py-4 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
       <div className='text-2xl font-semibold text-designColor'>
         Lathish
       </div>

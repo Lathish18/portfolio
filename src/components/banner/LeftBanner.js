@@ -41,25 +41,6 @@ const LeftBanner = () => {
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-around">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
-          </h2>
-          <div className="flex gap-4">
-            <a href='https://github.com/Lathish18' className="bannerIcon" target='_blank'>
-              <BsGithub />
-            </a>
-            <a href='https://www.linkedin.com/in/lathish18/' className="bannerIcon" target="_blank">
-              <FaLinkedinIn />
-            </a>
-            {/* <a href='' className="bannerIcon" target="_blank">
-              <FaEnvelope />
-            </a> */}
-            <a href="mailto:lathish1802@gmail.com" className="bannerIcon" target="_blank">
-              <FaGoogle />
-            </a>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
@@ -75,6 +56,25 @@ const LeftBanner = () => {
             <span className="bannerIcon">
               <SiPython />
             </span>
+          </div>
+        </div>
+        <div>
+          <h2 className="text-base uppercase font-titleFont mb-4">
+            Find me in
+          </h2>
+          <div className="flex gap-4">
+            <a href='https://github.com/Lathish18' className="bannerIcon" target='_blank'>
+              <BsGithub />
+            </a>
+            <a href='https://www.linkedin.com/in/lathish18/' className="bannerIcon" target="_blank">
+              <FaLinkedinIn />
+            </a>
+            {/* <a href='' className="bannerIcon" target="_blank">
+              <FaEnvelope />
+            </a> */}
+            <a href="mailto:lathish1802@gmail.com" className="bannerIcon" target="_blank">
+              <FaGoogle />
+            </a>
           </div>
         </div>
         <div>

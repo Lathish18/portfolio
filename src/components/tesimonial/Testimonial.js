@@ -120,7 +120,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Great to work with. Was patient with my many changes and delivered as expected. Would recommend to hire.
+                    Delivered an exceptional conversion of our Adobe XD designs to a web page, ensuring pixel-perfect accuracy and responsiveness. Attention to detail exceeded our expectations, making the process smooth and efficient
                   </p>
                 </div>
               </div>
@@ -177,8 +177,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
+                    Great work, developed a full website for our business, and the result was outstanding.
                   </p>
                 </div>
               </div>

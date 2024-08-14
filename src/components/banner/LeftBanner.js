@@ -14,7 +14,7 @@ const LeftBanner = () => {
     });
 
     const handleDownload = () => {
-      const resumeUrl = process.env.PUBLIC_URL + '/Lathish S - Resume.pdf';
+      const resumeUrl = process.env.PUBLIC_URL + '/Lathish-S.pdf';
       window.open(resumeUrl, '_blank');
     };
     

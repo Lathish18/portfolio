@@ -1,8 +1,9 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn, FaReact, FaDownload, FaGoogle } from "react-icons/fa";
-import { SiTailwindcss, SiPython, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiPython, SiNextdotjs, SiDjango } from "react-icons/si";
 import { BsGithub } from "react-icons/bs"
+import { Tooltip } from 'antd'
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -44,18 +45,31 @@ const LeftBanner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiPython />
-            </span>
+            <Tooltip title='React'>
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+            </Tooltip>
+            <Tooltip title='Node'>
+              <span className="bannerIcon">
+                <SiNextdotjs />
+              </span>
+             </Tooltip> 
+            <Tooltip title='Tailwind'>
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+              </Tooltip> 
+            <Tooltip title='Python'>
+              <span className="bannerIcon">
+                <SiPython />
+              </span>
+              </Tooltip> 
+            <Tooltip title='Django'>
+              <span className="bannerIcon">
+                <SiDjango />
+              </span>
+              </Tooltip> 
           </div>
         </div>
         <div>

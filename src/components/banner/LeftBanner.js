@@ -44,7 +44,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 items-center flex-wrap">
             <Tooltip title='React'>
               <span className="bannerIcon">
                 <FaReact />
@@ -54,22 +54,22 @@ const LeftBanner = () => {
               <span className="bannerIcon">
                 <SiNextdotjs />
               </span>
-             </Tooltip> 
+            </Tooltip> 
             <Tooltip title='Tailwind'>
               <span className="bannerIcon">
                 <SiTailwindcss />
               </span>
-              </Tooltip> 
+            </Tooltip> 
             <Tooltip title='Python'>
               <span className="bannerIcon">
                 <SiPython />
               </span>
-              </Tooltip> 
+            </Tooltip> 
             <Tooltip title='Django'>
               <span className="bannerIcon">
                 <SiDjango />
               </span>
-              </Tooltip> 
+            </Tooltip> 
           </div>
         </div>
         <div>

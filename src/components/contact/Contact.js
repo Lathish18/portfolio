@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Title from '../layouts/Title';
-import ContactLeft from './ContactLeft';
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs"
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -78,8 +79,7 @@ const Contact = () => {
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex flex-col mdl:flex-row justify-between gap-5">
-          <ContactLeft />
+        <div className="w-full h-auto flex items-center justify-center">
           <div className="w-full mdl:w-[55%] bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 px-4 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5" onSubmit={handleSubmit}>
               <div className="w-full flex flex-row gap-2">
@@ -167,6 +167,22 @@ const Contact = () => {
           {successMsg}
         </p>
       )}
+        <div className="w-full mt-8">
+          <h2 className="text-base uppercase font-titleFont mb-4 text-center">Find me in</h2>  
+          <div className='w-screen flex items-center justify-center'>
+            <div className="flex gap-4">
+              <a href='https://github.com/Lathish18' className="bannerIcon" target='_blank'>
+                <BsGithub />
+              </a>
+              <a href='https://www.linkedin.com/in/lathish18/' className="bannerIcon" target="_blank">
+                <FaLinkedinIn />
+              </a>
+              <a href="mailto:lathish1802@gmail.com" className="bannerIcon" target="_blank">
+                <FaGoogle />
+              </a>
+            </div>
+          </div>
+        </div>
     </section>
   );
 };
